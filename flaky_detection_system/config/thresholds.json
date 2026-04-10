@@ -1,0 +1,24 @@
+{
+    "detection": {
+        "min_runs": 5,
+        "flaky_threshold": 0.1,
+        "confidence_level": 0.95
+    },
+    "quarantine": {
+        "auto_quarantine": true,
+        "max_failures_before_quarantine": 2,
+        "quarantine_duration_days": 7
+    },
+    "runner": {
+        "default_runs": 10,
+        "max_runs": 100,
+        "parallel_workers": 4,
+        "timeout_seconds": 300,
+        "randomize_order": true
+    },
+    "classification": {
+        "order_dependent_threshold": 0.3,
+        "non_deterministic_threshold": 0.5,
+        "infrastructure_threshold": 0.1
+    }
+}

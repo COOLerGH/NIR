@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "timestamp": "2026-04-10T01:49:57.916953",
+    "generator": "flaky_detection_system",
+    "version": "1.0.0"
+  },
+  "summary": {
+    "total_tests": 0,
+    "total_runs": 0,
+    "total_duration_seconds": 0,
+    "flaky_count": 0,
+    "stable_count": 0,
+    "quarantined_count": 0,
+    "flaky_rate_percent": 0.0,
+    "pass_rate_percent": 0.0
+  },
+  "by_type": {},
+  "trends": {},
+  "tests": [],
+  "quarantine": {
+    "stats": {
+      "total": 0,
+      "active": 0,
+      "expired": 0,
+      "by_type": {}
+    },
+    "tests": []
+  }
+}

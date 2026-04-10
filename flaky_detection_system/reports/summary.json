@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-04-10T03:10:50.237657",
+  "total_tests": 190,
+  "flaky_count": 7,
+  "stable_count": 183,
+  "quarantined_count": 7,
+  "flaky_rate_percent": 3.68,
+  "pass_rate_percent": 98.15,
+  "by_type": {
+    "non_deterministic": 2,
+    "resource_leak": 5
+  }
+}

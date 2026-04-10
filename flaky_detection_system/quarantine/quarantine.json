@@ -1,0 +1,93 @@
+{
+  "tests/test_order_dependent.py::TestFileSystemStateLeak::test_victim_expects_original_content": {
+    "node_id": "tests/test_order_dependent.py::TestFileSystemStateLeak::test_victim_expects_original_content",
+    "name": "test_victim_expects_original_content",
+    "reason": "Automatically detected as flaky",
+    "flaky_type": "resource_leak",
+    "confidence": 0.667,
+    "added_date": "2026-04-10T03:10:50.222412",
+    "expire_date": "2026-04-17T03:10:50.222412",
+    "pass_rate": 0.8,
+    "total_runs": 10,
+    "polluters": [],
+    "is_active": true
+  },
+  "tests/test_order_dependent.py::TestFileSystemStateLeak::test_victim_expects_no_files": {
+    "node_id": "tests/test_order_dependent.py::TestFileSystemStateLeak::test_victim_expects_no_files",
+    "name": "test_victim_expects_no_files",
+    "reason": "Automatically detected as flaky",
+    "flaky_type": "resource_leak",
+    "confidence": 0.667,
+    "added_date": "2026-04-10T03:10:50.223629",
+    "expire_date": "2026-04-17T03:10:50.223629",
+    "pass_rate": 0.5,
+    "total_runs": 10,
+    "polluters": [],
+    "is_active": true
+  },
+  "tests/test_order_dependent.py::TestStateLeakage::test_victim_expects_empty_list": {
+    "node_id": "tests/test_order_dependent.py::TestStateLeakage::test_victim_expects_empty_list",
+    "name": "test_victim_expects_empty_list",
+    "reason": "Automatically detected as flaky",
+    "flaky_type": "resource_leak",
+    "confidence": 0.333,
+    "added_date": "2026-04-10T03:10:50.224830",
+    "expire_date": "2026-04-17T03:10:50.224830",
+    "pass_rate": 0.3,
+    "total_runs": 10,
+    "polluters": [],
+    "is_active": true
+  },
+  "tests/test_order_dependent.py::TestOrderDependentDemo::test_victim_expects_empty_cache": {
+    "node_id": "tests/test_order_dependent.py::TestOrderDependentDemo::test_victim_expects_empty_cache",
+    "name": "test_victim_expects_empty_cache",
+    "reason": "Automatically detected as flaky",
+    "flaky_type": "non_deterministic",
+    "confidence": 0.5,
+    "added_date": "2026-04-10T03:10:50.225966",
+    "expire_date": "2026-04-17T03:10:50.225966",
+    "pass_rate": 0.6,
+    "total_runs": 10,
+    "polluters": [],
+    "is_active": true
+  },
+  "tests/test_order_dependent.py::TestOrderDependentDemo::test_victim_expects_zero_counter": {
+    "node_id": "tests/test_order_dependent.py::TestOrderDependentDemo::test_victim_expects_zero_counter",
+    "name": "test_victim_expects_zero_counter",
+    "reason": "Automatically detected as flaky",
+    "flaky_type": "non_deterministic",
+    "confidence": 0.5,
+    "added_date": "2026-04-10T03:10:50.227138",
+    "expire_date": "2026-04-17T03:10:50.227138",
+    "pass_rate": 0.6,
+    "total_runs": 10,
+    "polluters": [],
+    "is_active": true
+  },
+  "tests/test_order_dependent.py::TestIndexerStateLeak::test_victim_expects_built_index": {
+    "node_id": "tests/test_order_dependent.py::TestIndexerStateLeak::test_victim_expects_built_index",
+    "name": "test_victim_expects_built_index",
+    "reason": "Automatically detected as flaky",
+    "flaky_type": "resource_leak",
+    "confidence": 0.667,
+    "added_date": "2026-04-10T03:10:50.228375",
+    "expire_date": "2026-04-17T03:10:50.228375",
+    "pass_rate": 0.2,
+    "total_runs": 10,
+    "polluters": [],
+    "is_active": true
+  },
+  "tests/test_order_dependent.py::TestIndexerStateLeak::test_victim_expects_no_index": {
+    "node_id": "tests/test_order_dependent.py::TestIndexerStateLeak::test_victim_expects_no_index",
+    "name": "test_victim_expects_no_index",
+    "reason": "Automatically detected as flaky",
+    "flaky_type": "resource_leak",
+    "confidence": 0.667,
+    "added_date": "2026-04-10T03:10:50.229648",
+    "expire_date": "2026-04-17T03:10:50.229648",
+    "pass_rate": 0.5,
+    "total_runs": 10,
+    "polluters": [],
+    "is_active": true
+  }
+}

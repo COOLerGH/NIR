@@ -1,0 +1,379 @@
+name: Flaky Test Detection
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: 'Number of test runs'
+        required: false
+        default: '10'
+      full_detection:
+        description: 'Run full flaky detection'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  PYTHON_VERSION: '3.13'
+
+jobs:
+  test-stable:
+    name: Run Stable Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r file_explorer_search/requirements.txt
+          pip install -r flaky_detection_system/requirements.txt
+
+      - name: Create results directory
+        run: mkdir -p flaky_detection_system/results
+
+      - name: Load quarantine list
+        id: quarantine
+        run: |
+          if [ -f flaky_detection_system/quarantine/deselect.txt ]; then
+            DESELECT_ARGS=$(cat flaky_detection_system/quarantine/deselect.txt | sed 's/^/--deselect=/' | tr '\n' ' ')
+            echo "deselect_args=$DESELECT_ARGS" >> $GITHUB_OUTPUT
+          else
+            echo "deselect_args=" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run stable tests
+        working-directory: file_explorer_search
+        run: |
+          pytest tests/ \
+            -v \
+            --tb=short \
+            ${{ steps.quarantine.outputs.deselect_args }} \
+            --json-report \
+            --json-report-file=../flaky_detection_system/results/stable_${{ github.run_id }}.json \
+            || true
+
+      - name: Upload stable test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: stable-test-results
+          path: flaky_detection_system/results/
+          retention-days: 30
+
+  test-quarantined:
+    name: Run Quarantined Tests
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r file_explorer_search/requirements.txt
+          pip install -r flaky_detection_system/requirements.txt
+          pip install pytest-rerunfailures
+
+      - name: Create results directory
+        run: mkdir -p flaky_detection_system/results
+
+      - name: Check quarantine list
+        id: check_quarantine
+        run: |
+          if [ -f flaky_detection_system/quarantine/deselect.txt ] && [ -s flaky_detection_system/quarantine/deselect.txt ]; then
+            echo "has_quarantined=true" >> $GITHUB_OUTPUT
+            TEST_NAMES=$(cat flaky_detection_system/quarantine/deselect.txt | xargs -I {} basename {} | sed 's/.*:://' | tr '\n' ' or ' | sed 's/ or $//')
+            echo "test_filter=$TEST_NAMES" >> $GITHUB_OUTPUT
+          else
+            echo "has_quarantined=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run quarantined tests
+        if: steps.check_quarantine.outputs.has_quarantined == 'true'
+        working-directory: file_explorer_search
+        run: |
+          pytest tests/ \
+            -v \
+            --tb=short \
+            --reruns 3 \
+            --reruns-delay 1 \
+            -k "${{ steps.check_quarantine.outputs.test_filter }}" \
+            --json-report \
+            --json-report-file=../flaky_detection_system/results/quarantined_${{ github.run_id }}.json \
+            || true
+
+      - name: Skip if no quarantined tests
+        if: steps.check_quarantine.outputs.has_quarantined != 'true'
+        run: echo "No quarantined tests to run"
+
+      - name: Upload quarantined test results
+        if: steps.check_quarantine.outputs.has_quarantined == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: quarantined-test-results
+          path: flaky_detection_system/results/
+          retention-days: 30
+
+  flaky-detection:
+    name: Detect Flaky Tests
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event.inputs.full_detection == 'true'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r file_explorer_search/requirements.txt
+          pip install -r flaky_detection_system/requirements.txt
+          pip install pytest-randomly
+
+      - name: Create directories
+        run: |
+          mkdir -p flaky_detection_system/results
+          mkdir -p flaky_detection_system/reports
+          mkdir -p flaky_detection_system/quarantine
+
+      - name: Set run count
+        id: config
+        run: |
+          if [ -n "${{ github.event.inputs.runs }}" ]; then
+            echo "runs=${{ github.event.inputs.runs }}" >> $GITHUB_OUTPUT
+          else
+            echo "runs=10" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run flaky detection
+        working-directory: file_explorer_search
+        run: |
+          for i in $(seq 1 ${{ steps.config.outputs.runs }}); do
+            echo "=== Run $i of ${{ steps.config.outputs.runs }} ==="
+            pytest tests/ \
+              -v \
+              --tb=short \
+              --randomly-seed=$i \
+              --json-report \
+              --json-report-file=../flaky_detection_system/results/detection_run_${i}_${{ github.run_id }}.json \
+              || true
+          done
+
+      - name: Analyze results
+        working-directory: flaky_detection_system
+        run: |
+          python main.py analyze --last ${{ steps.config.outputs.runs }}
+
+      - name: Generate reports
+        working-directory: flaky_detection_system
+        run: |
+          python main.py report --format all --last ${{ steps.config.outputs.runs }}
+
+      - name: Update quarantine
+        working-directory: flaky_detection_system
+        run: |
+          python main.py quarantine --cleanup
+          python main.py quarantine --list
+
+      - name: Upload detection results
+        uses: actions/upload-artifact@v4
+        with:
+          name: flaky-detection-results
+          path: |
+            flaky_detection_system/results/
+            flaky_detection_system/reports/
+            flaky_detection_system/quarantine/
+          retention-days: 90
+
+      - name: Upload HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: flaky-report-html
+          path: flaky_detection_system/reports/*.html
+          retention-days: 90
+
+  report-summary:
+    name: Generate Summary Report
+    runs-on: ubuntu-latest
+    needs: [test-stable, test-quarantined]
+    if: always()
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r flaky_detection_system/requirements.txt
+
+      - name: Download stable results
+        uses: actions/download-artifact@v4
+        with:
+          name: stable-test-results
+          path: flaky_detection_system/results/
+        continue-on-error: true
+
+      - name: Download quarantined results
+        uses: actions/download-artifact@v4
+        with:
+          name: quarantined-test-results
+          path: flaky_detection_system/results/
+        continue-on-error: true
+
+      - name: Generate summary
+        working-directory: flaky_detection_system
+        run: |
+          python main.py report --format summary --last 5
+
+      - name: Create job summary
+        run: |
+          echo "## Test Results Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f flaky_detection_system/reports/summary.json ]; then
+            echo "### Statistics" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            TOTAL=$(jq -r '.total_tests // 0' flaky_detection_system/reports/summary.json)
+            FLAKY=$(jq -r '.flaky_count // 0' flaky_detection_system/reports/summary.json)
+            QUARANTINED=$(jq -r '.quarantined_count // 0' flaky_detection_system/reports/summary.json)
+            PASS_RATE=$(jq -r '.pass_rate_percent // 0' flaky_detection_system/reports/summary.json)
+            
+            echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+            echo "| Total Tests | $TOTAL |" >> $GITHUB_STEP_SUMMARY
+            echo "| Flaky Tests | $FLAKY |" >> $GITHUB_STEP_SUMMARY
+            echo "| Quarantined | $QUARANTINED |" >> $GITHUB_STEP_SUMMARY
+            echo "| Pass Rate | ${PASS_RATE}% |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No summary data available" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-summary
+          path: flaky_detection_system/reports/summary.json
+          retention-days: 30
+
+  notify-on-new-flaky:
+    name: Notify on New Flaky Tests
+    runs-on: ubuntu-latest
+    needs: [flaky-detection]
+    if: github.event_name == 'schedule'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download detection results
+        uses: actions/download-artifact@v4
+        with:
+          name: flaky-detection-results
+          path: flaky_detection_system/
+
+      - name: Check for new flaky tests
+        id: check_flaky
+        run: |
+          if [ -f flaky_detection_system/reports/summary.json ]; then
+            FLAKY_COUNT=$(jq -r '.flaky_count // 0' flaky_detection_system/reports/summary.json)
+            echo "flaky_count=$FLAKY_COUNT" >> $GITHUB_OUTPUT
+            
+            if [ "$FLAKY_COUNT" -gt 0 ]; then
+              echo "has_new_flaky=true" >> $GITHUB_OUTPUT
+            else
+              echo "has_new_flaky=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "has_new_flaky=false" >> $GITHUB_OUTPUT
+            echo "flaky_count=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create issue for new flaky tests
+        if: steps.check_flaky.outputs.has_new_flaky == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            let summary = {};
+            try {
+              summary = JSON.parse(fs.readFileSync('flaky_detection_system/reports/summary.json', 'utf8'));
+            } catch (e) {
+              console.log('Could not read summary file');
+              return;
+            }
+            
+            const title = `Flaky Tests Detected: ${summary.flaky_count} tests`;
+            const body = `
+            ## Flaky Test Detection Report
+            
+            **Date:** ${new Date().toISOString().split('T')[0]}
+            **Run ID:** ${{ github.run_id }}
+            
+            ### Summary
+            - Total Tests: ${summary.total_tests || 0}
+            - Flaky Tests: ${summary.flaky_count || 0}
+            - Quarantined: ${summary.quarantined_count || 0}
+            - Pass Rate: ${summary.pass_rate_percent || 0}%
+            
+            ### Action Required
+            Please review the flaky tests and consider:
+            1. Fixing the root cause of flakiness
+            2. Adding proper test isolation
+            3. Reviewing the quarantine list
+            
+            See the [workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) for detailed reports.
+            `;
+            
+            const existingIssues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'flaky-tests'
+            });
+            
+            if (existingIssues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['flaky-tests', 'automated']
+              });
+            }
