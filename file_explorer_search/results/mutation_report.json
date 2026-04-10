@@ -1,0 +1,130 @@
+{
+  "total": 20,
+  "killed": 20,
+  "survived": 0,
+  "errors": 0,
+  "msi": 100.0,
+  "survived_mutations": [],
+  "killed_mutations": [
+    {
+      "id": "M01",
+      "description": "tokenize: len(t) >= 2 -> len(t) >= 3",
+      "operator": "Boundary mutation",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M02",
+      "description": "compute_tf: count / len(tokens) -> count * len(tokens)",
+      "operator": "Arithmetic operator replacement",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M03",
+      "description": "compute_tf: return 0.0 -> return 1.0 (empty tokens)",
+      "operator": "Return value mutation",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M04",
+      "description": "compute_idf: total_docs / docs_with_term -> total_docs - docs_with_term",
+      "operator": "Arithmetic operator replacement",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M05",
+      "description": "compute_idf: docs_with_term <= 0 -> docs_with_term < 0",
+      "operator": "Relational operator replacement",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M06",
+      "description": "compute_tfidf: tf * idf -> tf + idf",
+      "operator": "Arithmetic operator replacement",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M07",
+      "description": "rank_documents: reverse=True -> reverse=False",
+      "operator": "Boolean mutation",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M08",
+      "description": "rank_documents: scores[filepath] += tfidf -> scores[filepath] = tfidf",
+      "operator": "Assignment mutation",
+      "file": "core/ranker.py"
+    },
+    {
+      "id": "M09",
+      "description": "parser: default operator AND -> OR",
+      "operator": "Constant mutation",
+      "file": "core/parser.py"
+    },
+    {
+      "id": "M10",
+      "description": "parser: MAX_QUERY_LENGTH = 1000 -> MAX_QUERY_LENGTH = 0",
+      "operator": "Constant mutation",
+      "file": "core/parser.py"
+    },
+    {
+      "id": "M11",
+      "description": "cache.get: key in self._cache -> key not in self._cache",
+      "operator": "Negation mutation",
+      "file": "core/cache.py"
+    },
+    {
+      "id": "M12",
+      "description": "cache.get: убрать move_to_end",
+      "operator": "Statement deletion",
+      "file": "core/cache.py"
+    },
+    {
+      "id": "M13",
+      "description": "cache.get: self._hits += 1 -> self._misses += 1",
+      "operator": "Variable mutation",
+      "file": "core/cache.py"
+    },
+    {
+      "id": "M14",
+      "description": "cache.put: popitem(last=False) -> popitem(last=True)",
+      "operator": "Boolean mutation",
+      "file": "core/cache.py"
+    },
+    {
+      "id": "M15",
+      "description": "naive: score > 0 -> score >= 0",
+      "operator": "Relational operator replacement",
+      "file": "algorithms/naive_search.py"
+    },
+    {
+      "id": "M16",
+      "description": "naive: reverse=True -> reverse=False",
+      "operator": "Boolean mutation",
+      "file": "algorithms/naive_search.py"
+    },
+    {
+      "id": "M17",
+      "description": "naive: any(c == 0) -> all(c == 0)",
+      "operator": "Logic mutation",
+      "file": "algorithms/naive_search.py"
+    },
+    {
+      "id": "M18",
+      "description": "indexer: self._is_built = True -> self._is_built = False",
+      "operator": "Boolean mutation",
+      "file": "core/indexer.py"
+    },
+    {
+      "id": "M19",
+      "description": "base: r.size > value -> r.size >= value",
+      "operator": "Relational operator replacement",
+      "file": "algorithms/base.py"
+    },
+    {
+      "id": "M20",
+      "description": "base: results = results[:max_results] -> pass",
+      "operator": "Statement deletion",
+      "file": "algorithms/base.py"
+    }
+  ]
+}

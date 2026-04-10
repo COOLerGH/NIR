@@ -1,0 +1,11 @@
+{
+  "query": "python",
+  "naive": {
+    "time": 59.462644700000055,
+    "results_count": 8
+  },
+  "indexed": {
+    "time": 16.423514799999793,
+    "results_count": 8
+  }
+}

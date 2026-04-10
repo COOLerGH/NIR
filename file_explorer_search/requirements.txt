@@ -1,0 +1,10 @@
+requests 
+colorama 
+pytest 
+pytest-cov 
+pytest-mock
+mutmut
+mutpy
+cosmic-ray
+pytest-bdd
+matplotlib

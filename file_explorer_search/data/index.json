@@ -1,0 +1,3121 @@
+{
+  "index": {
+    "system": {
+      "data/config.json": 1,
+      "data/report.txt": 2,
+      "docs/changelog.md": 1,
+      "projects/java/Main.java": 3
+    },
+    "name": {
+      "data/config.json": 3,
+      "data/users.csv": 1,
+      "docs/api_reference.txt": 2,
+      "docs/guide.txt": 1,
+      "projects/python/app.py": 4,
+      "projects/python/config.json": 3,
+      "projects/python/test_app.py": 1,
+      "projects/python/utils.py": 1
+    },
+    "data": {
+      "data/config.json": 4,
+      "data/report.txt": 1,
+      "data/sales.csv": 1,
+      "docs/api_reference.txt": 1,
+      "docs/guide.txt": 1,
+      "misc/links.md": 4,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 3,
+      "projects/python/app.py": 5,
+      "projects/python/config.json": 2,
+      "projects/python/test_app.py": 11,
+      "projects/python/utils.py": 1,
+      "projects/web/scripts.js": 2
+    },
+    "processing": {
+      "data/config.json": 2,
+      "data/report.txt": 3,
+      "docs/api_reference.txt": 1,
+      "misc/links.md": 1,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 2,
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1
+    },
+    "pipeline": {
+      "data/config.json": 1,
+      "data/report.txt": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1
+    },
+    "version": {
+      "data/config.json": 1,
+      "docs/changelog.md": 3,
+      "projects/python/config.json": 1
+    },
+    "environment": {
+      "data/config.json": 1
+    },
+    "production": {
+      "data/config.json": 1
+    },
+    "sources": {
+      "data/config.json": 1
+    },
+    "users": {
+      "data/config.json": 2,
+      "docs/guide.txt": 1,
+      "projects/python/app.py": 5,
+      "projects/python/test_app.py": 3
+    },
+    "type": {
+      "data/config.json": 2,
+      "misc/todo.txt": 1,
+      "projects/web/index.html": 1
+    },
+    "csv": {
+      "data/config.json": 4,
+      "docs/guide.txt": 1,
+      "misc/links.md": 1
+    },
+    "path": {
+      "data/config.json": 2,
+      "docs/api_reference.txt": 5,
+      "docs/guide.txt": 2,
+      "projects/python/config.json": 1,
+      "projects/python/utils.py": 3
+    },
+    "delimiter": {
+      "data/config.json": 2
+    },
+    "sales": {
+      "data/config.json": 2,
+      "data/users.csv": 4
+    },
+    "batch": {
+      "data/config.json": 1
+    },
+    "size": {
+      "data/config.json": 1,
+      "data/report.txt": 2,
+      "docs/api_reference.txt": 2,
+      "docs/changelog.md": 1,
+      "docs/notes.txt": 2,
+      "projects/java/Main.java": 2,
+      "projects/python/config.json": 1,
+      "projects/web/styles.css": 2
+    },
+    "1000": {
+      "data/config.json": 1,
+      "data/report.txt": 1
+    },
+    "parallel": {
+      "data/config.json": 1,
+      "docs/notes.txt": 1
+    },
+    "workers": {
+      "data/config.json": 1,
+      "projects/python/config.json": 1
+    },
+    "timeout": {
+      "data/config.json": 1
+    },
+    "seconds": {
+      "data/config.json": 1,
+      "data/report.txt": 3
+    },
+    "300": {
+      "data/config.json": 1
+    },
+    "retry": {
+      "data/config.json": 1
+    },
+    "count": {
+      "data/config.json": 1,
+      "docs/notes.txt": 1,
+      "projects/python/utils.py": 2
+    },
+    "output": {
+      "data/config.json": 1,
+      "docs/changelog.md": 2
+    },
+    "format": {
+      "data/config.json": 1,
+      "docs/api_reference.txt": 1,
+      "docs/notes.txt": 1,
+      "projects/python/config.json": 1,
+      "projects/python/utils.py": 2
+    },
+    "json": {
+      "data/config.json": 1,
+      "docs/api_reference.txt": 4,
+      "docs/changelog.md": 1,
+      "misc/links.md": 1,
+      "projects/python/config.json": 1,
+      "projects/python/test_app.py": 1,
+      "projects/python/utils.py": 6,
+      "projects/web/scripts.js": 2
+    },
+    "directory": {
+      "data/config.json": 1,
+      "docs/api_reference.txt": 2,
+      "projects/python/utils.py": 4
+    },
+    "results": {
+      "data/config.json": 1,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 4,
+      "misc/todo.txt": 1,
+      "projects/java/Main.java": 3,
+      "projects/python/app.py": 2,
+      "projects/python/config.json": 1,
+      "projects/python/test_app.py": 6,
+      "projects/web/index.html": 3,
+      "projects/web/scripts.js": 6,
+      "projects/web/styles.css": 1
+    },
+    "compress": {
+      "data/config.json": 1
+    },
+    "false": {
+      "data/config.json": 1,
+      "projects/python/utils.py": 1
+    },
+    "quarterly": {
+      "data/report.txt": 1
+    },
+    "performance": {
+      "data/report.txt": 4,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 2,
+      "docs/notes.txt": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1
+    },
+    "report": {
+      "data/report.txt": 1
+    },
+    "q1": {
+      "data/report.txt": 2
+    },
+    "2025": {
+      "data/report.txt": 1,
+      "data/sales.csv": 11,
+      "docs/changelog.md": 3
+    },
+    "executive": {
+      "data/report.txt": 1
+    },
+    "summary": {
+      "data/report.txt": 1
+    },
+    "handled": {
+      "data/report.txt": 1
+    },
+    "150": {
+      "data/report.txt": 1
+    },
+    "000": {
+      "data/report.txt": 2
+    },
+    "records": {
+      "data/report.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "during": {
+      "data/report.txt": 1,
+      "docs/api_reference.txt": 1
+    },
+    "search": {
+      "data/report.txt": 6,
+      "docs/changelog.md": 6,
+      "docs/guide.txt": 14,
+      "docs/notes.txt": 5,
+      "misc/links.md": 2,
+      "misc/todo.txt": 5,
+      "projects/java/Main.java": 4,
+      "projects/java/README.md": 3,
+      "projects/python/app.py": 6,
+      "projects/python/config.json": 1,
+      "projects/python/test_app.py": 13,
+      "projects/web/index.html": 7,
+      "projects/web/scripts.js": 7,
+      "projects/web/styles.css": 3
+    },
+    "improved": {
+      "data/report.txt": 2,
+      "docs/changelog.md": 2
+    },
+    "340": {
+      "data/report.txt": 1
+    },
+    "after": {
+      "data/report.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "implementing": {
+      "data/report.txt": 1
+    },
+    "tf": {
+      "data/report.txt": 1,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1
+    },
+    "idf": {
+      "data/report.txt": 1,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1
+    },
+    "indexing": {
+      "data/report.txt": 2,
+      "docs/changelog.md": 1,
+      "docs/notes.txt": 1
+    },
+    "algorithm": {
+      "data/report.txt": 4,
+      "docs/changelog.md": 4,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 2,
+      "misc/todo.txt": 1
+    },
+    "cache": {
+      "data/report.txt": 2,
+      "docs/changelog.md": 2,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1,
+      "projects/python/config.json": 1
+    },
+    "hit": {
+      "data/report.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "rate": {
+      "data/report.txt": 1,
+      "docs/api_reference.txt": 2,
+      "docs/notes.txt": 1
+    },
+    "reached": {
+      "data/report.txt": 1
+    },
+    "78": {
+      "data/report.txt": 1
+    },
+    "common": {
+      "data/report.txt": 1
+    },
+    "queries": {
+      "data/report.txt": 1,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1,
+      "projects/web/index.html": 1
+    },
+    "key": {
+      "data/report.txt": 1
+    },
+    "metrics": {
+      "data/report.txt": 1
+    },
+    "total": {
+      "data/report.txt": 1,
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 1
+    },
+    "files": {
+      "data/report.txt": 2,
+      "docs/api_reference.txt": 6,
+      "docs/guide.txt": 4,
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1,
+      "projects/web/index.html": 1
+    },
+    "processed": {
+      "data/report.txt": 1
+    },
+    "15": {
+      "data/report.txt": 2,
+      "data/sales.csv": 2,
+      "data/users.csv": 2,
+      "docs/changelog.md": 1
+    },
+    "247": {
+      "data/report.txt": 1
+    },
+    "average": {
+      "data/report.txt": 3,
+      "docs/notes.txt": 1,
+      "projects/python/utils.py": 2
+    },
+    "time": {
+      "data/report.txt": 3,
+      "docs/api_reference.txt": 1,
+      "docs/notes.txt": 3
+    },
+    "003": {
+      "data/report.txt": 1
+    },
+    "per": {
+      "data/report.txt": 1
+    },
+    "file": {
+      "data/report.txt": 2,
+      "docs/api_reference.txt": 7,
+      "docs/changelog.md": 5,
+      "docs/guide.txt": 5,
+      "docs/notes.txt": 4,
+      "misc/todo.txt": 1,
+      "projects/python/config.json": 1,
+      "projects/python/utils.py": 5
+    },
+    "index": {
+      "data/report.txt": 5,
+      "docs/changelog.md": 2,
+      "docs/guide.txt": 4,
+      "docs/notes.txt": 4,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1,
+      "projects/python/config.json": 2
+    },
+    "45": {
+      "data/report.txt": 1
+    },
+    "unique": {
+      "data/report.txt": 1
+    },
+    "terms": {
+      "data/report.txt": 1,
+      "docs/guide.txt": 2
+    },
+    "peak": {
+      "data/report.txt": 1
+    },
+    "memory": {
+      "data/report.txt": 1,
+      "docs/changelog.md": 1,
+      "docs/notes.txt": 1
+    },
+    "usage": {
+      "data/report.txt": 1,
+      "docs/api_reference.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "256": {
+      "data/report.txt": 1
+    },
+    "mb": {
+      "data/report.txt": 1
+    },
+    "uptime": {
+      "data/report.txt": 1
+    },
+    "99": {
+      "data/report.txt": 1,
+      "data/sales.csv": 11
+    },
+    "analysis": {
+      "data/report.txt": 1,
+      "docs/changelog.md": 1,
+      "misc/links.md": 3
+    },
+    "naive": {
+      "data/report.txt": 2,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 2
+    },
+    "response": {
+      "data/report.txt": 2,
+      "projects/python/test_app.py": 7,
+      "projects/web/scripts.js": 4
+    },
+    "indexed": {
+      "data/report.txt": 2,
+      "docs/guide.txt": 2,
+      "docs/notes.txt": 1,
+      "projects/web/index.html": 1
+    },
+    "007": {
+      "data/report.txt": 1
+    },
+    "speedup": {
+      "data/report.txt": 1
+    },
+    "factor": {
+      "data/report.txt": 1
+    },
+    "342x": {
+      "data/report.txt": 1
+    },
+    "improvement": {
+      "data/report.txt": 2
+    },
+    "demonstrated": {
+      "data/report.txt": 1
+    },
+    "significant": {
+      "data/report.txt": 1,
+      "docs/api_reference.txt": 1
+    },
+    "advantages": {
+      "data/report.txt": 1
+    },
+    "over": {
+      "data/report.txt": 1,
+      "docs/guide.txt": 1
+    },
+    "approach": {
+      "data/report.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "collections": {
+      "data/report.txt": 2,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "exceeding": {
+      "data/report.txt": 1
+    },
+    "below": {
+      "data/report.txt": 1
+    },
+    "threshold": {
+      "data/report.txt": 1
+    },
+    "overhead": {
+      "data/report.txt": 1
+    },
+    "construction": {
+      "data/report.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "may": {
+      "data/report.txt": 1,
+      "docs/api_reference.txt": 1
+    },
+    "justify": {
+      "data/report.txt": 1
+    },
+    "speed": {
+      "data/report.txt": 1
+    },
+    "recommendations": {
+      "data/report.txt": 1
+    },
+    "enable": {
+      "data/report.txt": 1,
+      "projects/python/config.json": 1
+    },
+    "automatic": {
+      "data/report.txt": 1
+    },
+    "rebuilding": {
+      "data/report.txt": 1
+    },
+    "changes": {
+      "data/report.txt": 1
+    },
+    "increase": {
+      "data/report.txt": 1
+    },
+    "100": {
+      "data/report.txt": 1,
+      "projects/python/config.json": 1
+    },
+    "500": {
+      "data/report.txt": 1,
+      "docs/api_reference.txt": 1
+    },
+    "entries": {
+      "data/report.txt": 1
+    },
+    "implement": {
+      "data/report.txt": 1,
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "incremental": {
+      "data/report.txt": 1
+    },
+    "updates": {
+      "data/report.txt": 1
+    },
+    "add": {
+      "data/report.txt": 1,
+      "docs/notes.txt": 2,
+      "misc/todo.txt": 3,
+      "projects/java/Main.java": 6
+    },
+    "monitoring": {
+      "data/report.txt": 1,
+      "misc/links.md": 1
+    },
+    "query": {
+      "data/report.txt": 2,
+      "docs/changelog.md": 1,
+      "docs/notes.txt": 1,
+      "projects/java/Main.java": 4,
+      "projects/python/app.py": 4,
+      "projects/python/test_app.py": 4,
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 6
+    },
+    "patterns": {
+      "data/report.txt": 1,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 2,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "consider": {
+      "data/report.txt": 1
+    },
+    "distributed": {
+      "data/report.txt": 1
+    },
+    "very": {
+      "data/report.txt": 1
+    },
+    "large": {
+      "data/report.txt": 1,
+      "docs/api_reference.txt": 1,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "budget": {
+      "data/report.txt": 1
+    },
+    "impact": {
+      "data/report.txt": 1
+    },
+    "server": {
+      "data/report.txt": 1,
+      "data/sales.csv": 1,
+      "docs/api_reference.txt": 1,
+      "misc/links.md": 2,
+      "projects/java/Main.java": 3,
+      "projects/java/README.md": 4,
+      "projects/python/app.py": 2,
+      "projects/python/config.json": 2
+    },
+    "cost": {
+      "data/report.txt": 1
+    },
+    "reduction": {
+      "data/report.txt": 1
+    },
+    "due": {
+      "data/report.txt": 1
+    },
+    "faster": {
+      "data/report.txt": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "developer": {
+      "data/report.txt": 1,
+      "data/users.csv": 2,
+      "projects/python/app.py": 1
+    },
+    "productivity": {
+      "data/report.txt": 1
+    },
+    "reducing": {
+      "data/report.txt": 1
+    },
+    "wait": {
+      "data/report.txt": 1
+    },
+    "times": {
+      "data/report.txt": 1
+    },
+    "date": {
+      "data/sales.csv": 1,
+      "data/users.csv": 1,
+      "docs/api_reference.txt": 2,
+      "docs/changelog.md": 2,
+      "docs/guide.txt": 1,
+      "projects/python/utils.py": 5
+    },
+    "product": {
+      "data/sales.csv": 1,
+      "docs/notes.txt": 1
+    },
+    "category": {
+      "data/sales.csv": 1
+    },
+    "quantity": {
+      "data/sales.csv": 1
+    },
+    "price": {
+      "data/sales.csv": 1
+    },
+    "region": {
+      "data/sales.csv": 1
+    },
+    "customer": {
+      "data/sales.csv": 1
+    },
+    "01": {
+      "data/sales.csv": 11,
+      "data/users.csv": 4,
+      "docs/changelog.md": 3
+    },
+    "05": {
+      "data/sales.csv": 1,
+      "data/users.csv": 1
+    },
+    "laptop": {
+      "data/sales.csv": 1
+    },
+    "pro": {
+      "data/sales.csv": 2
+    },
+    "electronics": {
+      "data/sales.csv": 3
+    },
+    "1299": {
+      "data/sales.csv": 1
+    },
+    "north": {
+      "data/sales.csv": 3
+    },
+    "acme": {
+      "data/sales.csv": 2
+    },
+    "corp": {
+      "data/sales.csv": 3
+    },
+    "06": {
+      "data/sales.csv": 1,
+      "data/users.csv": 2
+    },
+    "office": {
+      "data/sales.csv": 1
+    },
+    "chair": {
+      "data/sales.csv": 1
+    },
+    "furniture": {
+      "data/sales.csv": 2
+    },
+    "349": {
+      "data/sales.csv": 1
+    },
+    "south": {
+      "data/sales.csv": 3
+    },
+    "beta": {
+      "data/sales.csv": 2
+    },
+    "inc": {
+      "data/sales.csv": 3
+    },
+    "07": {
+      "data/sales.csv": 1,
+      "data/users.csv": 1
+    },
+    "python": {
+      "data/sales.csv": 1,
+      "docs/guide.txt": 3,
+      "misc/links.md": 4,
+      "misc/todo.txt": 1,
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1,
+      "projects/python/test_app.py": 3,
+      "test.txt": 1
+    },
+    "course": {
+      "data/sales.csv": 1
+    },
+    "education": {
+      "data/sales.csv": 3
+    },
+    "10": {
+      "data/sales.csv": 2,
+      "data/users.csv": 3,
+      "projects/python/config.json": 1
+    },
+    "49": {
+      "data/sales.csv": 1
+    },
+    "east": {
+      "data/sales.csv": 3
+    },
+    "gamma": {
+      "data/sales.csv": 2
+    },
+    "llc": {
+      "data/sales.csv": 2
+    },
+    "08": {
+      "data/sales.csv": 1
+    },
+    "rack": {
+      "data/sales.csv": 1
+    },
+    "hardware": {
+      "data/sales.csv": 3
+    },
+    "2499": {
+      "data/sales.csv": 1
+    },
+    "west": {
+      "data/sales.csv": 2
+    },
+    "delta": {
+      "data/sales.csv": 2
+    },
+    "co": {
+      "data/sales.csv": 2
+    },
+    "09": {
+      "data/sales.csv": 1,
+      "data/users.csv": 1
+    },
+    "monitor": {
+      "data/sales.csv": 1
+    },
+    "ultra": {
+      "data/sales.csv": 1
+    },
+    "599": {
+      "data/sales.csv": 1
+    },
+    "standing": {
+      "data/sales.csv": 1
+    },
+    "desk": {
+      "data/sales.csv": 1
+    },
+    "799": {
+      "data/sales.csv": 1
+    },
+    "epsilon": {
+      "data/sales.csv": 1
+    },
+    "ltd": {
+      "data/sales.csv": 1
+    },
+    "11": {
+      "data/sales.csv": 1,
+      "data/users.csv": 1
+    },
+    "java": {
+      "data/sales.csv": 1,
+      "docs/guide.txt": 1,
+      "projects/java/Main.java": 8,
+      "projects/java/README.md": 5
+    },
+    "bootcamp": {
+      "data/sales.csv": 1
+    },
+    "79": {
+      "data/sales.csv": 1
+    },
+    "zeta": {
+      "data/sales.csv": 1
+    },
+    "12": {
+      "data/sales.csv": 2
+    },
+    "network": {
+      "data/sales.csv": 1
+    },
+    "switch": {
+      "data/sales.csv": 1
+    },
+    "199": {
+      "data/sales.csv": 1
+    },
+    "eta": {
+      "data/sales.csv": 1
+    },
+    "13": {
+      "data/sales.csv": 1
+    },
+    "keyboard": {
+      "data/sales.csv": 1
+    },
+    "129": {
+      "data/sales.csv": 1
+    },
+    "14": {
+      "data/sales.csv": 1
+    },
+    "web": {
+      "data/sales.csv": 1,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 1,
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1,
+      "projects/web/index.html": 2,
+      "projects/web/scripts.js": 1,
+      "projects/web/styles.css": 1
+    },
+    "development": {
+      "data/sales.csv": 1,
+      "docs/notes.txt": 1,
+      "misc/links.md": 2,
+      "misc/todo.txt": 1,
+      "projects/java/Main.java": 1,
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1
+    },
+    "59": {
+      "data/sales.csv": 1
+    },
+    "cable": {
+      "data/sales.csv": 1
+    },
+    "50": {
+      "data/sales.csv": 1
+    },
+    "id": {
+      "data/users.csv": 1,
+      "projects/web/index.html": 4
+    },
+    "email": {
+      "data/users.csv": 1,
+      "projects/python/utils.py": 6
+    },
+    "department": {
+      "data/users.csv": 1
+    },
+    "role": {
+      "data/users.csv": 1,
+      "projects/python/app.py": 2
+    },
+    "join": {
+      "data/users.csv": 1
+    },
+    "salary": {
+      "data/users.csv": 1
+    },
+    "alice": {
+      "data/users.csv": 2,
+      "projects/python/app.py": 1,
+      "projects/python/test_app.py": 1
+    },
+    "johnson": {
+      "data/users.csv": 1
+    },
+    "example": {
+      "data/users.csv": 10,
+      "docs/api_reference.txt": 1,
+      "projects/java/Main.java": 1
+    },
+    "com": {
+      "data/users.csv": 10,
+      "misc/links.md": 1,
+      "projects/java/Main.java": 1
+    },
+    "engineering": {
+      "data/users.csv": 5
+    },
+    "senior": {
+      "data/users.csv": 1
+    },
+    "2020": {
+      "data/users.csv": 1
+    },
+    "95000": {
+      "data/users.csv": 2
+    },
+    "bob": {
+      "data/users.csv": 2,
+      "projects/python/app.py": 1
+    },
+    "smith": {
+      "data/users.csv": 1
+    },
+    "junior": {
+      "data/users.csv": 1
+    },
+    "2022": {
+      "data/users.csv": 2
+    },
+    "03": {
+      "data/users.csv": 2,
+      "docs/changelog.md": 1
+    },
+    "20": {
+      "data/users.csv": 2
+    },
+    "65000": {
+      "data/users.csv": 1
+    },
+    "charlie": {
+      "data/users.csv": 2
+    },
+    "brown": {
+      "data/users.csv": 1
+    },
+    "marketing": {
+      "data/users.csv": 3
+    },
+    "manager": {
+      "data/users.csv": 3
+    },
+    "2019": {
+      "data/users.csv": 2
+    },
+    "85000": {
+      "data/users.csv": 1
+    },
+    "diana": {
+      "data/users.csv": 2
+    },
+    "prince": {
+      "data/users.csv": 1
+    },
+    "team": {
+      "data/users.csv": 1,
+      "misc/todo.txt": 1
+    },
+    "lead": {
+      "data/users.csv": 1
+    },
+    "2018": {
+      "data/users.csv": 1
+    },
+    "110000": {
+      "data/users.csv": 1
+    },
+    "edward": {
+      "data/users.csv": 2
+    },
+    "norton": {
+      "data/users.csv": 1
+    },
+    "representative": {
+      "data/users.csv": 1
+    },
+    "2023": {
+      "data/users.csv": 2
+    },
+    "55000": {
+      "data/users.csv": 1
+    },
+    "fiona": {
+      "data/users.csv": 2
+    },
+    "apple": {
+      "data/users.csv": 1
+    },
+    "devops": {
+      "data/users.csv": 1
+    },
+    "engineer": {
+      "data/users.csv": 1
+    },
+    "2021": {
+      "data/users.csv": 1
+    },
+    "90000": {
+      "data/users.csv": 1
+    },
+    "george": {
+      "data/users.csv": 2
+    },
+    "lucas": {
+      "data/users.csv": 1
+    },
+    "management": {
+      "data/users.csv": 1,
+      "docs/changelog.md": 1,
+      "projects/java/README.md": 2
+    },
+    "project": {
+      "data/users.csv": 1
+    },
+    "2017": {
+      "data/users.csv": 1
+    },
+    "25": {
+      "data/users.csv": 1
+    },
+    "105000": {
+      "data/users.csv": 1
+    },
+    "hannah": {
+      "data/users.csv": 2
+    },
+    "montana": {
+      "data/users.csv": 1
+    },
+    "content": {
+      "data/users.csv": 1,
+      "docs/api_reference.txt": 4,
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "projects/python/utils.py": 4
+    },
+    "writer": {
+      "data/users.csv": 1
+    },
+    "50000": {
+      "data/users.csv": 1
+    },
+    "ivan": {
+      "data/users.csv": 2
+    },
+    "petrov": {
+      "data/users.csv": 1
+    },
+    "qa": {
+      "data/users.csv": 1
+    },
+    "tester": {
+      "data/users.csv": 1,
+      "projects/python/app.py": 1
+    },
+    "70000": {
+      "data/users.csv": 1
+    },
+    "julia": {
+      "data/users.csv": 2
+    },
+    "roberts": {
+      "data/users.csv": 1
+    },
+    "04": {
+      "data/users.csv": 1,
+      "docs/changelog.md": 1
+    },
+    "api": {
+      "docs/api_reference.txt": 4,
+      "docs/changelog.md": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 2,
+      "projects/python/app.py": 3,
+      "projects/python/config.json": 1,
+      "projects/python/test_app.py": 3,
+      "projects/web/scripts.js": 4
+    },
+    "reference": {
+      "docs/api_reference.txt": 1,
+      "misc/links.md": 1
+    },
+    "documentation": {
+      "docs/api_reference.txt": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1
+    },
+    "rest": {
+      "docs/api_reference.txt": 1,
+      "misc/links.md": 1,
+      "projects/java/README.md": 1
+    },
+    "endpoints": {
+      "docs/api_reference.txt": 2,
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 2
+    },
+    "get": {
+      "docs/api_reference.txt": 5,
+      "projects/python/app.py": 3,
+      "projects/python/test_app.py": 5
+    },
+    "list": {
+      "docs/api_reference.txt": 1,
+      "misc/todo.txt": 1,
+      "projects/java/Main.java": 4,
+      "projects/python/test_app.py": 1,
+      "projects/python/utils.py": 2
+    },
+    "directories": {
+      "docs/api_reference.txt": 1
+    },
+    "specified": {
+      "docs/api_reference.txt": 1
+    },
+    "returns": {
+      "docs/api_reference.txt": 3,
+      "docs/guide.txt": 1,
+      "projects/python/test_app.py": 2
+    },
+    "array": {
+      "docs/api_reference.txt": 1
+    },
+    "objects": {
+      "docs/api_reference.txt": 1
+    },
+    "text": {
+      "docs/api_reference.txt": 1,
+      "docs/guide.txt": 1,
+      "projects/python/utils.py": 2,
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 2,
+      "projects/web/styles.css": 2
+    },
+    "object": {
+      "docs/api_reference.txt": 2,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 1,
+      "projects/python/utils.py": 1
+    },
+    "field": {
+      "docs/api_reference.txt": 1
+    },
+    "info": {
+      "docs/api_reference.txt": 1,
+      "projects/python/config.json": 1
+    },
+    "detailed": {
+      "docs/api_reference.txt": 1
+    },
+    "information": {
+      "docs/api_reference.txt": 1,
+      "docs/notes.txt": 1,
+      "misc/links.md": 1
+    },
+    "about": {
+      "docs/api_reference.txt": 1
+    },
+    "modified": {
+      "docs/api_reference.txt": 1
+    },
+    "dir": {
+      "docs/api_reference.txt": 1
+    },
+    "authentication": {
+      "docs/api_reference.txt": 2
+    },
+    "currently": {
+      "docs/api_reference.txt": 1
+    },
+    "no": {
+      "docs/api_reference.txt": 2,
+      "docs/guide.txt": 1,
+      "projects/python/test_app.py": 1,
+      "projects/web/scripts.js": 1
+    },
+    "required": {
+      "docs/api_reference.txt": 1
+    },
+    "all": {
+      "docs/api_reference.txt": 2,
+      "docs/guide.txt": 2,
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 1,
+      "projects/python/app.py": 2,
+      "projects/python/test_app.py": 1
+    },
+    "publicly": {
+      "docs/api_reference.txt": 1
+    },
+    "accessible": {
+      "docs/api_reference.txt": 1
+    },
+    "localhost": {
+      "docs/api_reference.txt": 3,
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1,
+      "projects/web/scripts.js": 1
+    },
+    "error": {
+      "docs/api_reference.txt": 2,
+      "docs/changelog.md": 1,
+      "projects/python/utils.py": 2,
+      "projects/web/scripts.js": 5
+    },
+    "handling": {
+      "docs/api_reference.txt": 1,
+      "docs/changelog.md": 1
+    },
+    "404": {
+      "docs/api_reference.txt": 1
+    },
+    "found": {
+      "docs/api_reference.txt": 1,
+      "projects/python/utils.py": 1,
+      "projects/web/scripts.js": 1
+    },
+    "internal": {
+      "docs/api_reference.txt": 1
+    },
+    "limiting": {
+      "docs/api_reference.txt": 2
+    },
+    "applied": {
+      "docs/api_reference.txt": 1
+    },
+    "requests": {
+      "docs/api_reference.txt": 1
+    },
+    "however": {
+      "docs/api_reference.txt": 1
+    },
+    "reads": {
+      "docs/api_reference.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "take": {
+      "docs/api_reference.txt": 1
+    },
+    "formats": {
+      "docs/api_reference.txt": 1
+    },
+    "responses": {
+      "docs/api_reference.txt": 1
+    },
+    "use": {
+      "docs/api_reference.txt": 1,
+      "docs/guide.txt": 2
+    },
+    "utf": {
+      "docs/api_reference.txt": 1,
+      "projects/python/utils.py": 2,
+      "projects/web/index.html": 1
+    },
+    "encoding": {
+      "docs/api_reference.txt": 1,
+      "docs/changelog.md": 1,
+      "projects/python/utils.py": 2
+    },
+    "dates": {
+      "docs/api_reference.txt": 1
+    },
+    "formatted": {
+      "docs/api_reference.txt": 1
+    },
+    "yyyy": {
+      "docs/api_reference.txt": 1
+    },
+    "mm": {
+      "docs/api_reference.txt": 1
+    },
+    "dd": {
+      "docs/api_reference.txt": 1
+    },
+    "strings": {
+      "docs/api_reference.txt": 1
+    },
+    "sizes": {
+      "docs/api_reference.txt": 1
+    },
+    "reported": {
+      "docs/api_reference.txt": 1
+    },
+    "bytes": {
+      "docs/api_reference.txt": 1
+    },
+    "integers": {
+      "docs/api_reference.txt": 1
+    },
+    "curl": {
+      "docs/api_reference.txt": 2
+    },
+    "http": {
+      "docs/api_reference.txt": 2,
+      "misc/links.md": 1,
+      "projects/web/scripts.js": 1
+    },
+    "8000": {
+      "docs/api_reference.txt": 2
+    },
+    "documents": {
+      "docs/api_reference.txt": 1,
+      "docs/notes.txt": 2,
+      "projects/web/index.html": 2
+    },
+    "readme": {
+      "docs/api_reference.txt": 1
+    },
+    "txt": {
+      "docs/api_reference.txt": 1
+    },
+    "changelog": {
+      "docs/changelog.md": 1
+    },
+    "added": {
+      "docs/changelog.md": 3
+    },
+    "ranking": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "misc/todo.txt": 2
+    },
+    "inverted": {
+      "docs/changelog.md": 1,
+      "docs/notes.txt": 1,
+      "misc/links.md": 1
+    },
+    "fast": {
+      "docs/changelog.md": 1
+    },
+    "document": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 4,
+      "projects/web/scripts.js": 7
+    },
+    "retrieval": {
+      "docs/changelog.md": 1,
+      "misc/links.md": 1
+    },
+    "frequently": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1
+    },
+    "used": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1
+    },
+    "comparison": {
+      "docs/changelog.md": 2,
+      "docs/notes.txt": 1
+    },
+    "tool": {
+      "docs/changelog.md": 1
+    },
+    "changed": {
+      "docs/changelog.md": 2
+    },
+    "accuracy": {
+      "docs/changelog.md": 1
+    },
+    "better": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1
+    },
+    "tokenization": {
+      "docs/changelog.md": 1
+    },
+    "updated": {
+      "docs/changelog.md": 1
+    },
+    "user": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "interface": {
+      "docs/changelog.md": 2
+    },
+    "colored": {
+      "docs/changelog.md": 1
+    },
+    "optimized": {
+      "docs/changelog.md": 1
+    },
+    "building": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "fixed": {
+      "docs/changelog.md": 2
+    },
+    "issues": {
+      "docs/changelog.md": 1
+    },
+    "non": {
+      "docs/changelog.md": 1,
+      "projects/python/test_app.py": 1
+    },
+    "ascii": {
+      "docs/changelog.md": 1
+    },
+    "resolved": {
+      "docs/changelog.md": 1
+    },
+    "leak": {
+      "docs/changelog.md": 1
+    },
+    "corrected": {
+      "docs/changelog.md": 1
+    },
+    "filter": {
+      "docs/changelog.md": 1,
+      "projects/java/Main.java": 1,
+      "projects/python/utils.py": 2
+    },
+    "logic": {
+      "docs/changelog.md": 1
+    },
+    "wildcard": {
+      "docs/changelog.md": 1
+    },
+    "support": {
+      "docs/changelog.md": 2,
+      "docs/notes.txt": 2,
+      "misc/todo.txt": 1
+    },
+    "advanced": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 2,
+      "misc/todo.txt": 1
+    },
+    "syntax": {
+      "docs/changelog.md": 1
+    },
+    "operators": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1
+    },
+    "filters": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1
+    },
+    "progress": {
+      "docs/changelog.md": 1
+    },
+    "bar": {
+      "docs/changelog.md": 1
+    },
+    "operations": {
+      "docs/changelog.md": 1
+    },
+    "refactored": {
+      "docs/changelog.md": 1
+    },
+    "base": {
+      "docs/changelog.md": 1,
+      "projects/web/scripts.js": 3
+    },
+    "class": {
+      "docs/changelog.md": 1,
+      "projects/java/Main.java": 2,
+      "projects/python/test_app.py": 1,
+      "projects/web/index.html": 3,
+      "projects/web/scripts.js": 1
+    },
+    "client": {
+      "docs/changelog.md": 1,
+      "projects/python/test_app.py": 6
+    },
+    "initial": {
+      "docs/changelog.md": 1
+    },
+    "release": {
+      "docs/changelog.md": 1
+    },
+    "basic": {
+      "docs/changelog.md": 1,
+      "misc/todo.txt": 1,
+      "projects/python/utils.py": 1
+    },
+    "simple": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1,
+      "projects/python/utils.py": 1
+    },
+    "keyword": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1
+    },
+    "matching": {
+      "docs/changelog.md": 1,
+      "docs/notes.txt": 2,
+      "misc/todo.txt": 1,
+      "projects/python/test_app.py": 1
+    },
+    "console": {
+      "docs/changelog.md": 1,
+      "misc/todo.txt": 1,
+      "projects/web/scripts.js": 3
+    },
+    "menu": {
+      "docs/changelog.md": 1,
+      "docs/guide.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "input": {
+      "docs/changelog.md": 1,
+      "projects/web/index.html": 1,
+      "projects/web/styles.css": 1
+    },
+    "guide": {
+      "docs/guide.txt": 1,
+      "misc/links.md": 2,
+      "misc/todo.txt": 1,
+      "projects/python/app.py": 1
+    },
+    "application": {
+      "docs/guide.txt": 3,
+      "projects/java/Main.java": 3,
+      "projects/java/README.md": 5,
+      "projects/python/app.py": 2,
+      "projects/python/config.json": 2,
+      "projects/python/test_app.py": 7,
+      "projects/web/index.html": 2,
+      "projects/web/scripts.js": 2,
+      "projects/web/styles.css": 1
+    },
+    "chapter": {
+      "docs/guide.txt": 6
+    },
+    "introduction": {
+      "docs/guide.txt": 1
+    },
+    "provides": {
+      "docs/guide.txt": 1,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 1
+    },
+    "intelligent": {
+      "docs/guide.txt": 1
+    },
+    "capabilities": {
+      "docs/guide.txt": 1
+    },
+    "using": {
+      "docs/guide.txt": 3,
+      "projects/python/utils.py": 1
+    },
+    "algorithms": {
+      "docs/guide.txt": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 1
+    },
+    "including": {
+      "docs/guide.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "can": {
+      "docs/guide.txt": 2
+    },
+    "various": {
+      "docs/guide.txt": 1
+    },
+    "getting": {
+      "docs/guide.txt": 1
+    },
+    "started": {
+      "docs/guide.txt": 1,
+      "projects/java/Main.java": 1
+    },
+    "begin": {
+      "docs/guide.txt": 1
+    },
+    "first": {
+      "docs/guide.txt": 1,
+      "projects/python/utils.py": 1
+    },
+    "configure": {
+      "docs/guide.txt": 1,
+      "projects/java/README.md": 1,
+      "projects/python/app.py": 1
+    },
+    "root": {
+      "docs/guide.txt": 2
+    },
+    "settings": {
+      "docs/guide.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "then": {
+      "docs/guide.txt": 1
+    },
+    "build": {
+      "docs/guide.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "stores": {
+      "docs/guide.txt": 1
+    },
+    "word": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 3,
+      "misc/todo.txt": 1
+    },
+    "frequencies": {
+      "docs/guide.txt": 1
+    },
+    "enter": {
+      "docs/guide.txt": 1,
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 1
+    },
+    "across": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1,
+      "projects/java/README.md": 1,
+      "projects/python/app.py": 1
+    },
+    "ranked": {
+      "docs/guide.txt": 1
+    },
+    "relevance": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "term": {
+      "docs/guide.txt": 3,
+      "docs/notes.txt": 1
+    },
+    "frequency": {
+      "docs/guide.txt": 2,
+      "docs/notes.txt": 2
+    },
+    "inverse": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "calculations": {
+      "docs/guide.txt": 1
+    },
+    "higher": {
+      "docs/guide.txt": 1,
+      "projects/java/README.md": 2
+    },
+    "scores": {
+      "docs/guide.txt": 1
+    },
+    "indicate": {
+      "docs/guide.txt": 1
+    },
+    "matches": {
+      "docs/guide.txt": 1,
+      "projects/python/app.py": 2
+    },
+    "refine": {
+      "docs/guide.txt": 1
+    },
+    "your": {
+      "docs/guide.txt": 1
+    },
+    "both": {
+      "docs/guide.txt": 1
+    },
+    "must": {
+      "docs/guide.txt": 1
+    },
+    "present": {
+      "docs/guide.txt": 1
+    },
+    "test": {
+      "docs/guide.txt": 1,
+      "misc/links.md": 1,
+      "misc/todo.txt": 2,
+      "projects/java/README.md": 1,
+      "projects/python/test_app.py": 17
+    },
+    "either": {
+      "docs/guide.txt": 1
+    },
+    "match": {
+      "docs/guide.txt": 2,
+      "projects/python/test_app.py": 1
+    },
+    "exclude": {
+      "docs/guide.txt": 1
+    },
+    "deprecated": {
+      "docs/guide.txt": 1
+    },
+    "wildcards": {
+      "docs/guide.txt": 1
+    },
+    "py": {
+      "docs/guide.txt": 1
+    },
+    "tips": {
+      "docs/guide.txt": 1
+    },
+    "significantly": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "improves": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "recommended": {
+      "docs/guide.txt": 1
+    },
+    "linear": {
+      "docs/guide.txt": 1
+    },
+    "instant": {
+      "docs/guide.txt": 1
+    },
+    "repeated": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "searches": {
+      "docs/guide.txt": 1,
+      "docs/notes.txt": 1
+    },
+    "troubleshooting": {
+      "docs/guide.txt": 1
+    },
+    "check": {
+      "docs/guide.txt": 2
+    },
+    "following": {
+      "docs/guide.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "verify": {
+      "docs/guide.txt": 1
+    },
+    "correctly": {
+      "docs/guide.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "configured": {
+      "docs/guide.txt": 1
+    },
+    "ensure": {
+      "docs/guide.txt": 1
+    },
+    "built": {
+      "docs/guide.txt": 1,
+      "projects/java/README.md": 1,
+      "projects/web/index.html": 1
+    },
+    "up": {
+      "docs/guide.txt": 1,
+      "misc/todo.txt": 1,
+      "projects/python/test_app.py": 1
+    },
+    "try": {
+      "docs/guide.txt": 1,
+      "projects/python/utils.py": 1,
+      "projects/web/scripts.js": 4
+    },
+    "broader": {
+      "docs/guide.txt": 1
+    },
+    "operator": {
+      "docs/guide.txt": 1
+    },
+    "permissions": {
+      "docs/guide.txt": 1
+    },
+    "accessibility": {
+      "docs/guide.txt": 1
+    },
+    "notes": {
+      "docs/notes.txt": 1
+    },
+    "ideas": {
+      "docs/notes.txt": 1
+    },
+    "every": {
+      "docs/notes.txt": 1
+    },
+    "each": {
+      "docs/notes.txt": 2
+    },
+    "which": {
+      "docs/notes.txt": 1
+    },
+    "slow": {
+      "docs/notes.txt": 1
+    },
+    "complexity": {
+      "docs/notes.txt": 1
+    },
+    "where": {
+      "docs/notes.txt": 2
+    },
+    "builds": {
+      "docs/notes.txt": 1
+    },
+    "mapping": {
+      "docs/notes.txt": 1
+    },
+    "containing": {
+      "docs/notes.txt": 1
+    },
+    "drops": {
+      "docs/notes.txt": 1
+    },
+    "number": {
+      "docs/notes.txt": 1
+    },
+    "scoring": {
+      "docs/notes.txt": 1
+    },
+    "measures": {
+      "docs/notes.txt": 2
+    },
+    "how": {
+      "docs/notes.txt": 2
+    },
+    "often": {
+      "docs/notes.txt": 1
+    },
+    "appears": {
+      "docs/notes.txt": 1
+    },
+    "rare": {
+      "docs/notes.txt": 2
+    },
+    "gives": {
+      "docs/notes.txt": 1
+    },
+    "score": {
+      "docs/notes.txt": 1
+    },
+    "favors": {
+      "docs/notes.txt": 1
+    },
+    "words": {
+      "docs/notes.txt": 1
+    },
+    "frequent": {
+      "docs/notes.txt": 1
+    },
+    "specific": {
+      "docs/notes.txt": 1
+    },
+    "overall": {
+      "docs/notes.txt": 1
+    },
+    "observations": {
+      "docs/notes.txt": 1
+    },
+    "takes": {
+      "docs/notes.txt": 1
+    },
+    "only": {
+      "docs/notes.txt": 1
+    },
+    "needs": {
+      "docs/notes.txt": 1
+    },
+    "happen": {
+      "docs/notes.txt": 1
+    },
+    "once": {
+      "docs/notes.txt": 1
+    },
+    "subsequent": {
+      "docs/notes.txt": 1
+    },
+    "much": {
+      "docs/notes.txt": 1
+    },
+    "grows": {
+      "docs/notes.txt": 1
+    },
+    "vocabulary": {
+      "docs/notes.txt": 1
+    },
+    "future": {
+      "docs/notes.txt": 1
+    },
+    "improvements": {
+      "docs/notes.txt": 1
+    },
+    "fuzzy": {
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "spelling": {
+      "docs/notes.txt": 1
+    },
+    "correction": {
+      "docs/notes.txt": 1
+    },
+    "phrase": {
+      "docs/notes.txt": 1
+    },
+    "position": {
+      "docs/notes.txt": 1
+    },
+    "clustering": {
+      "docs/notes.txt": 1
+    },
+    "categorization": {
+      "docs/notes.txt": 1
+    },
+    "binary": {
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "detection": {
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "multi": {
+      "docs/notes.txt": 1,
+      "misc/todo.txt": 1
+    },
+    "core": {
+      "docs/notes.txt": 1
+    },
+    "processors": {
+      "docs/notes.txt": 1
+    },
+    "useful": {
+      "misc/links.md": 1
+    },
+    "resources": {
+      "misc/links.md": 1,
+      "projects/python/app.py": 2,
+      "projects/web/index.html": 1
+    },
+    "links": {
+      "misc/links.md": 1
+    },
+    "flask": {
+      "misc/links.md": 2,
+      "projects/python/app.py": 5,
+      "projects/python/config.json": 1,
+      "projects/python/test_app.py": 1
+    },
+    "https": {
+      "misc/links.md": 3
+    },
+    "palletsprojects": {
+      "misc/links.md": 1
+    },
+    "pytest": {
+      "misc/links.md": 2,
+      "projects/python/test_app.py": 1
+    },
+    "docs": {
+      "misc/links.md": 2
+    },
+    "org": {
+      "misc/links.md": 2
+    },
+    "standard": {
+      "misc/links.md": 1,
+      "projects/java/README.md": 1
+    },
+    "library": {
+      "misc/links.md": 1
+    },
+    "explanation": {
+      "misc/links.md": 1
+    },
+    "implementation": {
+      "misc/links.md": 1
+    },
+    "structure": {
+      "misc/links.md": 1
+    },
+    "overview": {
+      "misc/links.md": 1,
+      "projects/java/README.md": 1
+    },
+    "textbook": {
+      "misc/links.md": 1
+    },
+    "references": {
+      "misc/links.md": 1
+    },
+    "lucene": {
+      "misc/links.md": 1
+    },
+    "engine": {
+      "misc/links.md": 1,
+      "projects/python/config.json": 1
+    },
+    "architecture": {
+      "misc/links.md": 2,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 3
+    },
+    "testing": {
+      "misc/links.md": 2,
+      "projects/java/README.md": 1,
+      "projects/python/test_app.py": 1
+    },
+    "methodologies": {
+      "misc/links.md": 1
+    },
+    "driven": {
+      "misc/links.md": 1
+    },
+    "best": {
+      "misc/links.md": 1
+    },
+    "practices": {
+      "misc/links.md": 1
+    },
+    "mutation": {
+      "misc/links.md": 1
+    },
+    "tools": {
+      "misc/links.md": 1
+    },
+    "code": {
+      "misc/links.md": 1,
+      "projects/python/test_app.py": 3
+    },
+    "coverage": {
+      "misc/links.md": 1
+    },
+    "techniques": {
+      "misc/links.md": 2
+    },
+    "boundary": {
+      "misc/links.md": 1
+    },
+    "value": {
+      "misc/links.md": 1,
+      "projects/web/scripts.js": 1
+    },
+    "examples": {
+      "misc/links.md": 1
+    },
+    "equivalence": {
+      "misc/links.md": 1
+    },
+    "partitioning": {
+      "misc/links.md": 1
+    },
+    "methodology": {
+      "misc/links.md": 1
+    },
+    "parsing": {
+      "misc/links.md": 1
+    },
+    "cleaning": {
+      "misc/links.md": 1
+    },
+    "schema": {
+      "misc/links.md": 1
+    },
+    "validation": {
+      "misc/links.md": 1,
+      "projects/python/utils.py": 1
+    },
+    "statistical": {
+      "misc/links.md": 1
+    },
+    "libraries": {
+      "misc/links.md": 1,
+      "projects/java/README.md": 1
+    },
+    "administration": {
+      "misc/links.md": 1
+    },
+    "design": {
+      "misc/links.md": 1,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 1
+    },
+    "principles": {
+      "misc/links.md": 1
+    },
+    "status": {
+      "misc/links.md": 1,
+      "projects/python/test_app.py": 3
+    },
+    "codes": {
+      "misc/links.md": 1
+    },
+    "logging": {
+      "misc/links.md": 1,
+      "projects/java/README.md": 1,
+      "projects/python/config.json": 1,
+      "projects/python/utils.py": 2
+    },
+    "optimization": {
+      "misc/links.md": 1
+    },
+    "todo": {
+      "misc/todo.txt": 1
+    },
+    "high": {
+      "misc/todo.txt": 1
+    },
+    "priority": {
+      "misc/todo.txt": 3
+    },
+    "fix": {
+      "misc/todo.txt": 1
+    },
+    "unit": {
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "tests": {
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "edge": {
+      "misc/todo.txt": 1
+    },
+    "cases": {
+      "misc/todo.txt": 2
+    },
+    "tokenizer": {
+      "misc/todo.txt": 1
+    },
+    "update": {
+      "misc/todo.txt": 1,
+      "projects/python/utils.py": 1
+    },
+    "new": {
+      "misc/todo.txt": 1,
+      "projects/java/Main.java": 3
+    },
+    "review": {
+      "misc/todo.txt": 1
+    },
+    "merge": {
+      "misc/todo.txt": 1,
+      "projects/python/utils.py": 2
+    },
+    "pull": {
+      "misc/todo.txt": 1
+    },
+    "request": {
+      "misc/todo.txt": 1,
+      "projects/python/app.py": 2
+    },
+    "module": {
+      "misc/todo.txt": 1
+    },
+    "medium": {
+      "misc/todo.txt": 1
+    },
+    "regular": {
+      "misc/todo.txt": 1
+    },
+    "expression": {
+      "misc/todo.txt": 1
+    },
+    "create": {
+      "misc/todo.txt": 1,
+      "projects/python/app.py": 2,
+      "projects/python/test_app.py": 2
+    },
+    "benchmarking": {
+      "misc/todo.txt": 1
+    },
+    "suite": {
+      "misc/todo.txt": 2,
+      "projects/python/test_app.py": 1
+    },
+    "write": {
+      "misc/todo.txt": 1,
+      "projects/python/utils.py": 3
+    },
+    "features": {
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "low": {
+      "misc/todo.txt": 1
+    },
+    "redesign": {
+      "misc/todo.txt": 1
+    },
+    "color": {
+      "misc/todo.txt": 1,
+      "projects/web/styles.css": 7
+    },
+    "scheme": {
+      "misc/todo.txt": 1
+    },
+    "export": {
+      "misc/todo.txt": 1
+    },
+    "functionality": {
+      "misc/todo.txt": 2,
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 2,
+      "projects/python/test_app.py": 1
+    },
+    "investigate": {
+      "misc/todo.txt": 1
+    },
+    "set": {
+      "misc/todo.txt": 1,
+      "projects/python/test_app.py": 1
+    },
+    "continuous": {
+      "misc/todo.txt": 1
+    },
+    "integration": {
+      "misc/todo.txt": 1,
+      "projects/java/README.md": 1
+    },
+    "completed": {
+      "misc/todo.txt": 1
+    },
+    "implemented": {
+      "misc/todo.txt": 1
+    },
+    "integrated": {
+      "misc/todo.txt": 1
+    },
+    "save": {
+      "misc/todo.txt": 1
+    },
+    "load": {
+      "misc/todo.txt": 1,
+      "projects/python/app.py": 3,
+      "projects/python/test_app.py": 3,
+      "projects/web/scripts.js": 2
+    },
+    "working": {
+      "misc/todo.txt": 1
+    },
+    "passing": {
+      "misc/todo.txt": 1
+    },
+    "package": {
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 1
+    },
+    "app": {
+      "projects/java/Main.java": 4,
+      "projects/java/README.md": 1,
+      "projects/python/app.py": 6,
+      "projects/python/config.json": 2,
+      "projects/python/test_app.py": 5
+    },
+    "import": {
+      "projects/java/Main.java": 3,
+      "projects/python/app.py": 1,
+      "projects/python/test_app.py": 3,
+      "projects/python/utils.py": 4
+    },
+    "util": {
+      "projects/java/Main.java": 3
+    },
+    "arraylist": {
+      "projects/java/Main.java": 3
+    },
+    "stream": {
+      "projects/java/Main.java": 2
+    },
+    "collectors": {
+      "projects/java/Main.java": 2
+    },
+    "main": {
+      "projects/java/Main.java": 6,
+      "projects/python/app.py": 1,
+      "projects/web/index.html": 2,
+      "projects/web/styles.css": 2
+    },
+    "public": {
+      "projects/java/Main.java": 6
+    },
+    "private": {
+      "projects/java/Main.java": 2
+    },
+    "string": {
+      "projects/java/Main.java": 7,
+      "projects/python/utils.py": 3
+    },
+    "database": {
+      "projects/java/Main.java": 12,
+      "projects/java/README.md": 3,
+      "projects/python/app.py": 2,
+      "projects/python/config.json": 1
+    },
+    "initializedata": {
+      "projects/java/Main.java": 2
+    },
+    "void": {
+      "projects/java/Main.java": 3
+    },
+    "programming": {
+      "projects/java/Main.java": 1
+    },
+    "language": {
+      "projects/java/Main.java": 1
+    },
+    "oriented": {
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 1
+    },
+    "connection": {
+      "projects/java/Main.java": 1,
+      "projects/java/README.md": 3
+    },
+    "pool": {
+      "projects/java/Main.java": 1,
+      "projects/python/config.json": 1
+    },
+    "service": {
+      "projects/java/Main.java": 1,
+      "projects/web/scripts.js": 1
+    },
+    "null": {
+      "projects/java/Main.java": 2
+    },
+    "isempty": {
+      "projects/java/Main.java": 2
+    },
+    "return": {
+      "projects/java/Main.java": 3,
+      "projects/python/app.py": 5,
+      "projects/python/utils.py": 14,
+      "projects/web/scripts.js": 3
+    },
+    "lowerquery": {
+      "projects/java/Main.java": 2
+    },
+    "tolowercase": {
+      "projects/java/Main.java": 1
+    },
+    "item": {
+      "projects/java/Main.java": 2,
+      "projects/python/app.py": 3,
+      "projects/python/utils.py": 3,
+      "projects/web/scripts.js": 2
+    },
+    "contains": {
+      "projects/java/Main.java": 1
+    },
+    "collect": {
+      "projects/java/Main.java": 1
+    },
+    "tolist": {
+      "projects/java/Main.java": 1
+    },
+    "addrecord": {
+      "projects/java/Main.java": 1
+    },
+    "record": {
+      "projects/java/Main.java": 4
+    },
+    "int": {
+      "projects/java/Main.java": 1
+    },
+    "getdatabasesize": {
+      "projects/java/Main.java": 2
+    },
+    "static": {
+      "projects/java/Main.java": 1
+    },
+    "args": {
+      "projects/java/Main.java": 1,
+      "projects/python/app.py": 1
+    },
+    "out": {
+      "projects/java/Main.java": 3
+    },
+    "println": {
+      "projects/java/Main.java": 3
+    },
+    "pooling": {
+      "projects/java/README.md": 1
+    },
+    "restful": {
+      "projects/java/README.md": 1
+    },
+    "requirements": {
+      "projects/java/README.md": 1
+    },
+    "17": {
+      "projects/java/README.md": 1
+    },
+    "maven": {
+      "projects/java/README.md": 1
+    },
+    "run": {
+      "projects/java/README.md": 2,
+      "projects/python/app.py": 1
+    },
+    "command": {
+      "projects/java/README.md": 1
+    },
+    "mvn": {
+      "projects/java/README.md": 2
+    },
+    "clean": {
+      "projects/java/README.md": 1
+    },
+    "running": {
+      "projects/java/README.md": 1
+    },
+    "start": {
+      "projects/java/README.md": 1
+    },
+    "jar": {
+      "projects/java/README.md": 2
+    },
+    "target": {
+      "projects/java/README.md": 1
+    },
+    "follows": {
+      "projects/java/README.md": 1
+    },
+    "layered": {
+      "projects/java/README.md": 1
+    },
+    "presentation": {
+      "projects/java/README.md": 1
+    },
+    "layer": {
+      "projects/java/README.md": 3
+    },
+    "business": {
+      "projects/java/README.md": 1
+    },
+    "access": {
+      "projects/java/README.md": 1
+    },
+    "configuration": {
+      "projects/java/README.md": 1
+    },
+    "edit": {
+      "projects/java/README.md": 1
+    },
+    "properties": {
+      "projects/java/README.md": 1
+    },
+    "port": {
+      "projects/java/README.md": 1,
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1
+    },
+    "level": {
+      "projects/java/README.md": 1,
+      "projects/python/config.json": 1
+    },
+    "jsonify": {
+      "projects/python/app.py": 3
+    },
+    "def": {
+      "projects/python/app.py": 5,
+      "projects/python/test_app.py": 8,
+      "projects/python/utils.py": 8
+    },
+    "config": {
+      "projects/python/app.py": 1,
+      "projects/python/test_app.py": 1
+    },
+    "debug": {
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1
+    },
+    "true": {
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 2,
+      "projects/python/test_app.py": 1
+    },
+    "route": {
+      "projects/python/app.py": 2
+    },
+    "endpoint": {
+      "projects/python/app.py": 1,
+      "projects/python/test_app.py": 2
+    },
+    "finding": {
+      "projects/python/app.py": 1
+    },
+    "perform": {
+      "projects/python/app.py": 3,
+      "projects/python/test_app.py": 5
+    },
+    "lower": {
+      "projects/python/app.py": 2
+    },
+    "tutorial": {
+      "projects/python/app.py": 1,
+      "projects/python/test_app.py": 1
+    },
+    "host": {
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1
+    },
+    "5000": {
+      "projects/python/app.py": 1,
+      "projects/python/config.json": 1,
+      "projects/web/scripts.js": 1
+    },
+    "description": {
+      "projects/python/config.json": 1
+    },
+    "sqlite": {
+      "projects/python/config.json": 1
+    },
+    "db": {
+      "projects/python/config.json": 1
+    },
+    "logs": {
+      "projects/python/config.json": 1
+    },
+    "log": {
+      "projects/python/config.json": 1,
+      "projects/web/scripts.js": 2
+    },
+    "asctime": {
+      "projects/python/config.json": 1
+    },
+    "levelname": {
+      "projects/python/config.json": 1
+    },
+    "message": {
+      "projects/python/config.json": 1,
+      "projects/web/scripts.js": 2
+    },
+    "max": {
+      "projects/python/config.json": 1,
+      "projects/python/utils.py": 3,
+      "projects/web/styles.css": 1
+    },
+    "testapplication": {
+      "projects/python/test_app.py": 1
+    },
+    "setup": {
+      "projects/python/test_app.py": 1
+    },
+    "method": {
+      "projects/python/test_app.py": 1
+    },
+    "self": {
+      "projects/python/test_app.py": 11
+    },
+    "correct": {
+      "projects/python/test_app.py": 1
+    },
+    "assert": {
+      "projects/python/test_app.py": 11
+    },
+    "200": {
+      "projects/python/test_app.py": 3
+    },
+    "len": {
+      "projects/python/test_app.py": 4,
+      "projects/python/utils.py": 4
+    },
+    "valid": {
+      "projects/python/test_app.py": 1
+    },
+    "empty": {
+      "projects/python/test_app.py": 2
+    },
+    "function": {
+      "projects/python/test_app.py": 2,
+      "projects/python/utils.py": 1,
+      "projects/web/scripts.js": 8
+    },
+    "directly": {
+      "projects/python/test_app.py": 1
+    },
+    "nonexistent": {
+      "projects/python/test_app.py": 1
+    },
+    "loading": {
+      "projects/python/test_app.py": 1
+    },
+    "isinstance": {
+      "projects/python/test_app.py": 1,
+      "projects/python/utils.py": 1
+    },
+    "factory": {
+      "projects/python/test_app.py": 1
+    },
+    "creation": {
+      "projects/python/test_app.py": 1
+    },
+    "none": {
+      "projects/python/test_app.py": 1,
+      "projects/python/utils.py": 2,
+      "projects/web/styles.css": 1
+    },
+    "os": {
+      "projects/python/utils.py": 5
+    },
+    "datetime": {
+      "projects/python/utils.py": 4
+    },
+    "logger": {
+      "projects/python/utils.py": 3
+    },
+    "getlogger": {
+      "projects/python/utils.py": 1
+    },
+    "read": {
+      "projects/python/utils.py": 3
+    },
+    "filepath": {
+      "projects/python/utils.py": 7
+    },
+    "exists": {
+      "projects/python/utils.py": 2
+    },
+    "open": {
+      "projects/python/utils.py": 2
+    },
+    "dirname": {
+      "projects/python/utils.py": 1
+    },
+    "makedirs": {
+      "projects/python/utils.py": 1
+    },
+    "parse": {
+      "projects/python/utils.py": 3
+    },
+    "dictionary": {
+      "projects/python/utils.py": 1
+    },
+    "loads": {
+      "projects/python/utils.py": 1
+    },
+    "except": {
+      "projects/python/utils.py": 1
+    },
+    "jsondecodeerror": {
+      "projects/python/utils.py": 1
+    },
+    "failed": {
+      "projects/python/utils.py": 1,
+      "projects/web/scripts.js": 1
+    },
+    "obj": {
+      "projects/python/utils.py": 4
+    },
+    "strftime": {
+      "projects/python/utils.py": 1
+    },
+    "str": {
+      "projects/python/utils.py": 1
+    },
+    "calculate": {
+      "projects/python/utils.py": 2
+    },
+    "statistics": {
+      "projects/python/utils.py": 2,
+      "projects/web/index.html": 2,
+      "projects/web/scripts.js": 1
+    },
+    "numbers": {
+      "projects/python/utils.py": 9
+    },
+    "sum": {
+      "projects/python/utils.py": 4
+    },
+    "min": {
+      "projects/python/utils.py": 3
+    },
+    "items": {
+      "projects/python/utils.py": 3
+    },
+    "predicate": {
+      "projects/python/utils.py": 3
+    },
+    "dictionaries": {
+      "projects/python/utils.py": 2
+    },
+    "dict1": {
+      "projects/python/utils.py": 2
+    },
+    "dict2": {
+      "projects/python/utils.py": 2
+    },
+    "two": {
+      "projects/python/utils.py": 1
+    },
+    "second": {
+      "projects/python/utils.py": 1
+    },
+    "overrides": {
+      "projects/python/utils.py": 1
+    },
+    "result": {
+      "projects/python/utils.py": 3
+    },
+    "copy": {
+      "projects/python/utils.py": 1
+    },
+    "validate": {
+      "projects/python/utils.py": 1
+    },
+    "parts": {
+      "projects/python/utils.py": 4
+    },
+    "split": {
+      "projects/python/utils.py": 1
+    },
+    "doctype": {
+      "projects/web/index.html": 1
+    },
+    "html": {
+      "projects/web/index.html": 4,
+      "projects/web/scripts.js": 4
+    },
+    "lang": {
+      "projects/web/index.html": 1
+    },
+    "en": {
+      "projects/web/index.html": 1
+    },
+    "head": {
+      "projects/web/index.html": 2
+    },
+    "meta": {
+      "projects/web/index.html": 1
+    },
+    "charset": {
+      "projects/web/index.html": 1
+    },
+    "title": {
+      "projects/web/index.html": 2
+    },
+    "portal": {
+      "projects/web/index.html": 3,
+      "projects/web/scripts.js": 2,
+      "projects/web/styles.css": 1
+    },
+    "link": {
+      "projects/web/index.html": 1
+    },
+    "rel": {
+      "projects/web/index.html": 1
+    },
+    "stylesheet": {
+      "projects/web/index.html": 1,
+      "projects/web/styles.css": 1
+    },
+    "href": {
+      "projects/web/index.html": 1
+    },
+    "styles": {
+      "projects/web/index.html": 1
+    },
+    "css": {
+      "projects/web/index.html": 2
+    },
+    "body": {
+      "projects/web/index.html": 2,
+      "projects/web/styles.css": 1
+    },
+    "header": {
+      "projects/web/index.html": 2,
+      "projects/web/styles.css": 1
+    },
+    "h1": {
+      "projects/web/index.html": 2
+    },
+    "find": {
+      "projects/web/index.html": 1
+    },
+    "quickly": {
+      "projects/web/index.html": 1
+    },
+    "section": {
+      "projects/web/index.html": 9,
+      "projects/web/styles.css": 4
+    },
+    "h2": {
+      "projects/web/index.html": 6
+    },
+    "searchinput": {
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 1
+    },
+    "placeholder": {
+      "projects/web/index.html": 1
+    },
+    "button": {
+      "projects/web/index.html": 2,
+      "projects/web/styles.css": 1
+    },
+    "onclick": {
+      "projects/web/index.html": 1
+    },
+    "performsearch": {
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 1
+    },
+    "div": {
+      "projects/web/index.html": 2,
+      "projects/web/scripts.js": 4
+    },
+    "span": {
+      "projects/web/index.html": 4
+    },
+    "totaldocs": {
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 1
+    },
+    "today": {
+      "projects/web/index.html": 1
+    },
+    "querycount": {
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 1
+    },
+    "footer": {
+      "projects/web/index.html": 2,
+      "projects/web/styles.css": 1
+    },
+    "javascript": {
+      "projects/web/index.html": 1,
+      "projects/web/scripts.js": 1
+    },
+    "script": {
+      "projects/web/index.html": 3
+    },
+    "src": {
+      "projects/web/index.html": 1
+    },
+    "js": {
+      "projects/web/index.html": 1
+    },
+    "const": {
+      "projects/web/scripts.js": 11
+    },
+    "url": {
+      "projects/web/scripts.js": 3
+    },
+    "async": {
+      "projects/web/scripts.js": 2
+    },
+    "getelementbyid": {
+      "projects/web/scripts.js": 5
+    },
+    "trim": {
+      "projects/web/scripts.js": 1
+    },
+    "alert": {
+      "projects/web/scripts.js": 1
+    },
+    "please": {
+      "projects/web/scripts.js": 2
+    },
+    "await": {
+      "projects/web/scripts.js": 4
+    },
+    "fetch": {
+      "projects/web/scripts.js": 2
+    },
+    "displayresults": {
+      "projects/web/scripts.js": 2
+    },
+    "updatequerycount": {
+      "projects/web/scripts.js": 2
+    },
+    "catch": {
+      "projects/web/scripts.js": 2
+    },
+    "displayerror": {
+      "projects/web/scripts.js": 2
+    },
+    "unavailable": {
+      "projects/web/scripts.js": 1
+    },
+    "again": {
+      "projects/web/scripts.js": 1
+    },
+    "later": {
+      "projects/web/scripts.js": 1
+    },
+    "container": {
+      "projects/web/scripts.js": 5
+    },
+    "length": {
+      "projects/web/scripts.js": 1
+    },
+    "innerhtml": {
+      "projects/web/scripts.js": 4
+    },
+    "different": {
+      "projects/web/scripts.js": 1
+    },
+    "let": {
+      "projects/web/scripts.js": 1
+    },
+    "ul": {
+      "projects/web/scripts.js": 2
+    },
+    "foreach": {
+      "projects/web/scripts.js": 1
+    },
+    "li": {
+      "projects/web/scripts.js": 2
+    },
+    "escapehtml": {
+      "projects/web/scripts.js": 2
+    },
+    "createelement": {
+      "projects/web/scripts.js": 1
+    },
+    "textcontent": {
+      "projects/web/scripts.js": 4
+    },
+    "counter": {
+      "projects/web/scripts.js": 3
+    },
+    "current": {
+      "projects/web/scripts.js": 2
+    },
+    "parseint": {
+      "projects/web/scripts.js": 1
+    },
+    "initialize": {
+      "projects/web/scripts.js": 1
+    },
+    "page": {
+      "projects/web/scripts.js": 1
+    },
+    "addeventlistener": {
+      "projects/web/scripts.js": 1
+    },
+    "domcontentloaded": {
+      "projects/web/scripts.js": 1
+    },
+    "initialized": {
+      "projects/web/scripts.js": 1
+    },
+    "loadstatistics": {
+      "projects/web/scripts.js": 2
+    },
+    "stats": {
+      "projects/web/scripts.js": 3
+    },
+    "could": {
+      "projects/web/scripts.js": 1
+    },
+    "font": {
+      "projects/web/styles.css": 3
+    },
+    "family": {
+      "projects/web/styles.css": 1
+    },
+    "arial": {
+      "projects/web/styles.css": 1
+    },
+    "helvetica": {
+      "projects/web/styles.css": 1
+    },
+    "sans": {
+      "projects/web/styles.css": 1
+    },
+    "serif": {
+      "projects/web/styles.css": 1
+    },
+    "margin": {
+      "projects/web/styles.css": 4
+    },
+    "padding": {
+      "projects/web/styles.css": 8
+    },
+    "background": {
+      "projects/web/styles.css": 5
+    },
+    "f5f5f5": {
+      "projects/web/styles.css": 1
+    },
+    "333333": {
+      "projects/web/styles.css": 1
+    },
+    "2c3e50": {
+      "projects/web/styles.css": 1
+    },
+    "white": {
+      "projects/web/styles.css": 4
+    },
+    "20px": {
+      "projects/web/styles.css": 9
+    },
+    "align": {
+      "projects/web/styles.css": 2
+    },
+    "center": {
+      "projects/web/styles.css": 2
+    },
+    "width": {
+      "projects/web/styles.css": 2
+    },
+    "800px": {
+      "projects/web/styles.css": 1
+    },
+    "auto": {
+      "projects/web/styles.css": 1
+    },
+    "border": {
+      "projects/web/styles.css": 6
+    },
+    "radius": {
+      "projects/web/styles.css": 4
+    },
+    "8px": {
+      "projects/web/styles.css": 2
+    },
+    "bottom": {
+      "projects/web/styles.css": 2
+    },
+    "box": {
+      "projects/web/styles.css": 1
+    },
+    "shadow": {
+      "projects/web/styles.css": 1
+    },
+    "2px": {
+      "projects/web/styles.css": 1
+    },
+    "4px": {
+      "projects/web/styles.css": 3
+    },
+    "rgba": {
+      "projects/web/styles.css": 1
+    },
+    "70": {
+      "projects/web/styles.css": 1
+    },
+    "10px": {
+      "projects/web/styles.css": 2
+    },
+    "16px": {
+      "projects/web/styles.css": 2
+    },
+    "1px": {
+      "projects/web/styles.css": 1
+    },
+    "solid": {
+      "projects/web/styles.css": 1
+    },
+    "ddd": {
+      "projects/web/styles.css": 1
+    },
+    "3498db": {
+      "projects/web/styles.css": 1
+    },
+    "cursor": {
+      "projects/web/styles.css": 1
+    },
+    "pointer": {
+      "projects/web/styles.css": 1
+    },
+    "666": {
+      "projects/web/styles.css": 1
+    }
+  },
+  "doc_lengths": {
+    "data/config.json": 46,
+    "data/report.txt": 152,
+    "data/sales.csv": 131,
+    "data/users.csv": 129,
+    "docs/api_reference.txt": 130,
+    "docs/changelog.md": 117,
+    "docs/guide.txt": 168,
+    "docs/notes.txt": 135,
+    "misc/empty.txt": 0,
+    "misc/links.md": 98,
+    "misc/todo.txt": 96,
+    "projects/java/Main.java": 151,
+    "projects/java/README.md": 99,
+    "projects/python/app.py": 112,
+    "projects/python/config.json": 54,
+    "projects/python/test_app.py": 186,
+    "projects/python/utils.py": 201,
+    "projects/web/index.html": 108,
+    "projects/web/scripts.js": 187,
+    "projects/web/styles.css": 114,
+    "test.txt": 1
+  },
+  "total_docs": 21,
+  "build_time": 59.014333799999804
+}
