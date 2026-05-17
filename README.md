@@ -6,7 +6,7 @@
 
 
 ## Introduction
-This repository contains the results of a research work (НИР) performed within the course “Software Testing Methods” at SPbPU ICSC.
+
 
 The work focuses on flaky tests, specifically **order-dependent flaky tests** (tests whose outcome depends on the execution order). The repository provides:
 - `file_explorer_search/`: a target Python project (File Explorer API / search system) with a pytest test suite, including dedicated victim–polluter order-dependent tests for demonstration.
