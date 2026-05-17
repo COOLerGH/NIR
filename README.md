@@ -1,7 +1,7 @@
 # NIR: Automated Detection and Quarantine of Order-Dependent Flaky Tests in a CI/CD Pipeline
 
 ## Authors and contributors
-Main contributor: Mikhail A. Goriunov, Bachelor student (3rd year), Peter the Great St. Petersburg Polytechnic University, Institute of Computer Science and Cybersecurity (SPbPU ICSC / ИКНК).
+
 
 Advisor and contributor: Vladimir A. Parkhomenko, Senior Lecturer, Peter the Great St. Petersburg Polytechnic University, Institute of Computer Science and Cybersecurity (SPbPU ICSC / ИКНК).
 
