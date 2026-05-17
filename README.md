@@ -3,7 +3,7 @@
 ## Authors and contributors
 
 
-Advisor and contributor: Vladimir A. Parkhomenko, Senior Lecturer, Peter the Great St. Petersburg Polytechnic University, Institute of Computer Science and Cybersecurity (SPbPU ICSC / ИКНК).
+
 
 ## Introduction
 This repository contains the results of a research work (НИР) performed within the course “Software Testing Methods” at SPbPU ICSC.
